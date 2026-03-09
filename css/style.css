@@ -1,3 +1,7 @@
+/* G3 Architecture - Main Stylesheet
+   Author: Ali Hossen
+   Version: 1.0.0 */
+
 /* Universal Style */
 * {
   margin: 0;
@@ -13,4 +17,37 @@
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+}
+
+/* Shared Style */
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/* Header & Navigation Style */
+.header {
+  background-color: rgba(255, 144, 14, 0.1);
+  padding: 3rem 0 2.5rem;
+}
+
+.header .navbar .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header .navbar .container .nav-menu {
+  display: flex;
+  gap: 30px;
+}
+
+.nav-menu li {
+  list-style: none;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: #727272;
+  font-size: 1.125rem;
+  font-weight: 500;
 }
