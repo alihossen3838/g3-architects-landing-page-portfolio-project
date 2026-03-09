@@ -42,6 +42,37 @@
   box-shadow: 0 4px 15px rgba(195, 106, 4, 0.395);
 }
 
+.section-title {
+  font-size: 2.8125rem;
+  font-weight: 700;
+}
+
+.description {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.text-primary {
+  color: #ff900e;
+}
+
+.text-secondary {
+  color: #ffffff;
+}
+
+.text-dark1 {
+  color: #000000;
+}
+
+.text-dark2 {
+  color: #727272;
+}
+
+.text-dark3 {
+  color: #131313;
+}
+
 /* Header & Navigation Style */
 .header {
   background-color: rgba(255, 144, 14, 0.1);
@@ -51,6 +82,7 @@
 .header .navbar .container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .header .navbar .container .nav-menu {
@@ -64,7 +96,6 @@
 
 .nav-menu a {
   text-decoration: none;
-  color: #727272;
   font-size: 1.125rem;
   font-weight: 500;
   transition: all 0.3s ease;
@@ -72,7 +103,10 @@
 
 .nav-menu a:hover {
   color: #000000;
-  /* font-weight: 700; */
+}
+
+.header .navbar {
+  margin-bottom: 102px;
 }
 
 /* Hero Section Style */
@@ -83,16 +117,12 @@
 .hero-content .hero-title {
   font-size: 4rem;
   font-weight: 700;
-  color: #000000;
   margin-bottom: 1.5rem;
 }
 
 .hero-content .hero-description {
-  font-size: 1rem;
-  font-weight: 400;
-  color: #727272;
   margin-bottom: 2rem;
-  max-width: 54.25rem;
+  max-width: 868px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -103,4 +133,32 @@
 
 .hero-container .hero-image {
   width: 100%;
+}
+
+/* Features Section Style */
+.features-container {
+  display: flex;
+  align-items: center;
+  gap: 73px;
+  max-width: 1318px;
+  margin: 85px auto 130px;
+}
+
+.features-container .team-img-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.features-content .features-title {
+  font-size: 2.8125rem;
+  margin-bottom: 24px;
+}
+
+#quick-list {
+  font-weight: 500;
+}
+
+.features-content .features-description {
+  margin-bottom: 32px;
 }
