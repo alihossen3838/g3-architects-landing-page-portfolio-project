@@ -25,6 +25,23 @@
   margin: 0 auto;
 }
 
+.btn-primary {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #ffffff;
+  padding: 20px 25px;
+  background-color: #ff900e;
+  text-decoration: none;
+  border: none;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #fb8600;
+  box-shadow: 0 4px 15px rgba(195, 106, 4, 0.395);
+}
+
 /* Header & Navigation Style */
 .header {
   background-color: rgba(255, 144, 14, 0.1);
@@ -56,4 +73,34 @@
 .nav-menu a:hover {
   color: #000000;
   /* font-weight: 700; */
+}
+
+/* Hero Section Style */
+.hero-container {
+  text-align: center;
+}
+
+.hero-content .hero-title {
+  font-size: 4rem;
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: 1.5rem;
+}
+
+.hero-content .hero-description {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #727272;
+  margin-bottom: 2rem;
+  max-width: 54.25rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-container .hero-content {
+  margin-bottom: 50px;
+}
+
+.hero-container .hero-image {
+  width: 100%;
 }
