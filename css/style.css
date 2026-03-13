@@ -195,7 +195,7 @@
   margin-bottom: 10px;
 }
 
-.section-service-description {
+.service-section-description {
   margin-bottom: 30px;
 }
 
@@ -228,4 +228,50 @@
 .service-image .experience-badge .experience-text {
   font-size: 1.5625rem;
   font-weight: 500;
+}
+
+/* Facts Section Style */
+#facts-section {
+  margin-top: 130px;
+}
+
+.facts-container .facts-title {
+  margin-bottom: 24px;
+}
+
+.facts-container .section-description {
+  max-width: 542px;
+  margin-bottom: 100px;
+}
+
+.facts-container .facts-grid {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  justify-content: center;
+  gap: 7.75rem;
+}
+
+.facts-grid .fact-card {
+  display: flex;
+  border: 2px solid #ff900e;
+  border-radius: 8px;
+  /* padding: 45px 35px 60px; */
+  width: 240px;
+  height: 240px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.facts-grid .fact-card .fact-icon {
+  margin-bottom: 10px;
+  width: 45.22px;
+  height: 45.22px;
+}
+
+.facts-grid .fact-card .fact-number {
+  font-size: 2.8125rem;
+  color: #424242;
+  font-weight: 600;
+  margin-bottom: 5px;
 }
