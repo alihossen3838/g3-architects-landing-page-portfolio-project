@@ -287,3 +287,31 @@
   font-weight: 600;
   margin-bottom: 5px;
 }
+
+/* Footer Section Style */
+footer {
+  margin-top: 180px;
+}
+
+.sponsors-container {
+  text-align: center;
+}
+
+.sponsors-container .sponsors-title {
+  margin-bottom: 24px;
+}
+
+.sponsors-description {
+  margin-bottom: 50px;
+}
+
+.sponsors-logo {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  justify-content: center;
+  gap: 9.7025rem;
+}
+
+.sponsors-logo img {
+  filter: grayscale(100%);
+}
