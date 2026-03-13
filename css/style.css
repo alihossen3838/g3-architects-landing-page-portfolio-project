@@ -189,6 +189,11 @@
   border-radius: 8px;
   box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
   margin-bottom: 20px;
+  transition: all 0.3s ease;
+}
+
+.services-container .service-card:hover {
+  box-shadow: 0 4px 15px rgba(142, 135, 128, 0.395);
 }
 
 .services-container .service-title {
@@ -289,6 +294,8 @@
 }
 
 /* Footer Section Style */
+
+/* Footer Sponsors Logo Section */
 footer {
   margin-top: 180px;
 }
@@ -314,4 +321,29 @@ footer {
 
 .sponsors-logo img {
   filter: grayscale(100%);
+  transition: all 0.3s ease;
+}
+
+.sponsors-logo img:hover {
+  transform: translateY(-5px);
+}
+
+/* Footer Copyright Section */
+.footer-copyright {
+  margin-top: 130px;
+  margin-bottom: 216px;
+}
+
+.footer-copyright div {
+  border: none;
+  border-radius: 8px;
+  background-color: #fff4e7;
+  text-align: center;
+  padding: 39px;
+}
+
+.foot-description {
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: #424242;
 }
