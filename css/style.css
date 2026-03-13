@@ -218,6 +218,11 @@
   max-width: 342px;
   border: none;
   border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.service-image .experience-badge:hover {
+  transform: translateY(-5px);
 }
 
 .service-image .experience-badge .experience-year {
@@ -261,6 +266,13 @@
   text-align: center;
   align-items: center;
   justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.facts-grid .fact-card:hover {
+  box-shadow: 0 4px 15px rgba(195, 106, 4, 0.395);
+  background-color: #ffffff;
+  transform: translateY(-5px);
 }
 
 .facts-grid .fact-card .fact-icon {
