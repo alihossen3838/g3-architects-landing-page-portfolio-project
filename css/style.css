@@ -119,6 +119,11 @@
   text-align: center;
 }
 
+.hero-container .hero-content {
+  max-width: 868px;
+  margin: 0 auto;
+}
+
 .hero-content .hero-title {
   font-size: 4rem;
   font-weight: 700;
@@ -127,7 +132,6 @@
 
 .hero-content .hero-description {
   margin-bottom: 2rem;
-  max-width: 868px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -136,7 +140,7 @@
   margin-bottom: 50px;
 }
 
-.hero-container .hero-image {
+.hero-container .hero-image img {
   width: 100%;
 }
 
@@ -346,4 +350,28 @@ footer {
   font-size: 1.25rem;
   font-weight: 400;
   color: #424242;
+}
+
+/* Responsive Design */
+
+/* Design For Mobile Device (max-width: 576px) */
+@media screen and (max-width: 576px) {
+  /* Responsive Header Section */
+  .header .navbar {
+    margin-bottom: 60px;
+  }
+
+  .header .navbar .container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .header .navbar .container .nav-menu {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-content .hero-title {
+    font-size: 2rem;
+  }
 }
