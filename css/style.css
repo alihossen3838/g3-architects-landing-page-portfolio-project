@@ -371,7 +371,36 @@ footer {
     text-align: center;
   }
 
+  .hero-container .hero-content {
+    padding: 0 10px;
+  }
+
   .hero-content .hero-title {
+    font-size: 2rem;
+  }
+
+  /* Responsive Features Section */
+  .features-container {
+    flex-direction: column-reverse;
+  }
+
+  .features-container .team-img-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding: 0 8px;
+  }
+
+  .features-container .team-img-container img {
+    width: 100%;
+    height: auto;
+  }
+
+  .features-container .features-content {
+    padding: 0 10px;
+    text-align: center;
+  }
+
+  .features-content .features-title {
     font-size: 2rem;
   }
 }
