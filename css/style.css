@@ -356,6 +356,14 @@ footer {
 
 /* Design For Mobile Device (max-width: 576px) */
 @media screen and (max-width: 576px) {
+  /* Shared Style */
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .description {
+    padding: 0 10px;
+  }
   /* Responsive Header Section */
   .header .navbar {
     margin-bottom: 60px;
@@ -369,10 +377,6 @@ footer {
   .header .navbar .container .nav-menu {
     flex-direction: column;
     text-align: center;
-  }
-
-  .hero-container .hero-content {
-    padding: 0 10px;
   }
 
   .hero-content .hero-title {
@@ -396,11 +400,36 @@ footer {
   }
 
   .features-container .features-content {
-    padding: 0 10px;
     text-align: center;
   }
 
   .features-content .features-title {
     font-size: 2rem;
+  }
+
+  /* Responsive Services Section */
+  .services-container .service-grid {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .services-container .left-border {
+    margin-left: 20px;
+  }
+
+  .service-image img {
+    height: auto;
+  }
+
+  .service-image .experience-badge {
+    width: 80%;
+    bottom: -100px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 40px;
+  }
+
+  .service-image .experience-badge .experience-year {
+    font-size: 3rem;
   }
 }
