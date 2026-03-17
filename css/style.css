@@ -460,4 +460,32 @@ footer {
     height: auto;
     padding: 10px;
   }
+
+  /* Responsive Footer Section */
+  footer {
+    margin-top: 85px;
+  }
+
+  /* Style Sponsors Section */
+  .sponsors-logo {
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    gap: 4rem;
+  }
+
+  /* Style Copyright Section */
+  .footer-copyright {
+    margin-top: 60px;
+    margin-bottom: 20px;
+  }
+
+  .footer-copyright div {
+    padding: 2rem;
+  }
+
+  .foot-description {
+    line-height: 35px;
+    font-size: 1.5rem;
+    text-align: center;
+  }
 }
