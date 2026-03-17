@@ -260,7 +260,7 @@
 
 .facts-container .facts-grid {
   display: grid;
-  grid-template-columns: repeat(4, auto);
+  grid-template-columns: repeat(4, 1fr);
   justify-content: center;
   gap: 7.75rem;
 }
@@ -431,5 +431,33 @@ footer {
 
   .service-image .experience-badge .experience-year {
     font-size: 3rem;
+  }
+
+  /* Responsive Fact Section */
+  #facts-section {
+    margin-top: 160px;
+  }
+
+  .facts-container .facts-title {
+    padding: 0 10px;
+  }
+
+  .facts-container .section-description {
+    width: 90%;
+    margin-bottom: 20px;
+    margin-bottom: 50px;
+  }
+
+  .facts-container .facts-grid {
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    gap: 1rem;
+    padding: 0 10px;
+  }
+
+  .facts-grid .fact-card {
+    width: 100%;
+    height: auto;
+    padding: 10px;
   }
 }
